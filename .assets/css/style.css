@@ -1,0 +1,25 @@
+h1 {
+ font-family:sans-serif;
+ font-size: 50px;
+}
+
+header {
+    background-color: rgb(37, 36, 36);
+    color:white;
+}
+
+h1 {
+    background-color: rgb(234, 163, 33);
+    display: inline;
+    text-align: left;
+}
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    align-content: space-between;
+    text-align: right;
+}
