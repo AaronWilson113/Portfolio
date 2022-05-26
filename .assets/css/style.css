@@ -42,20 +42,39 @@ li {
 main {
     background-color:rgb(53, 49, 49);
     color:white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container {
+    display: flex;
+    align-content: space-between;
 }
 
 h2 {
+    margin-left: 200px;
     
 }
 
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100%;
     margin: 20px;
+    margin-right: 200px;
     padding: 20px;
     border: 4px solid;
     border-color:rgb(234, 163, 33);
-    
-    
+        
 }
+
+.vertical-line {
+    display: inline-block;
+    border-left: 1px solid white;
+    margin: 0 10px;
+    height: 125px;
+    display:inline-block;
+
+}
+
